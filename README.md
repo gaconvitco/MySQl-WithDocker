@@ -1,5 +1,12 @@
 # MySQl-WithDocker
 Goto bash-command and run : > docker-compose up
+
+```compose
+# "localport:dockerport"
+# "localvolumes:dockervolumes"
+```
+Note localport is port in machine and dockerport is port in container.
+localvolumes is path in your directory. This config ${MYSQL DATADIR-./data/mysql} is current directory have's compose.yml
 ## Example:
 1. Create table
 ```Sql
