@@ -1,5 +1,5 @@
 # MySQl-WithDocker
-Goto bash command and run : > docker-compose up
+Goto bash-command and run : > docker-compose up
 ## Example:
 1. Create table
 ```Sql
